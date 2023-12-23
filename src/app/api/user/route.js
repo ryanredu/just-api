@@ -1,12 +1,5 @@
 import { PrismaClient } from "@prisma/client";
 
-// export async function GET() {
-//   const prisma = new PrismaClient();
-
-//   const std = await prisma.users.findMany();
-//   return Response.json(std);
-// }
-
 //Creating API for single student registration
 export async function POST(req, res) {
   try {
